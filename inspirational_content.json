@@ -1,0 +1,1010 @@
+{
+    "motivationalQuotes": [
+        {
+            "quote": "The only way to do great work is to love what you do.",
+            "author": "Steve Jobs"
+        },
+        {
+            "quote": "Believe you can and you're halfway there.",
+            "author": "Theodore Roosevelt"
+        },
+        {
+            "quote": "It does not matter how slowly you go as long as you do not stop.",
+            "author": "Confucius"
+        },
+        {
+            "quote": "Your time is limited, don't waste it living someone else's life.",
+            "author": "Steve Jobs"
+        },
+        {
+            "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+            "author": "Winston Churchill"
+        },
+        {
+            "quote": "Don't watch the clock; do what it does. Keep going.",
+            "author": "Sam Levenson"
+        },
+        {
+            "quote": "You miss 100% of the shots you don't take.",
+            "author": "Wayne Gretzky"
+        },
+        {
+            "quote": "The best way to predict the future is to create it.",
+            "author": "Abraham Lincoln"
+        },
+        {
+            "quote": "Opportunities don't happen, you create them.",
+            "author": "Chris Grosser"
+        },
+        {
+            "quote": "I find that the harder I work, the more luck I seem to have.",
+            "author": "Thomas Jefferson"
+        },
+        {
+            "quote": "If you can dream it, you can do it.",
+            "author": "Walt Disney"
+        },
+        {
+            "quote": "The secret of getting ahead is getting started.",
+            "author": "Mark Twain"
+        },
+        {
+            "quote": "Everything you've ever wanted is on the other side of fear.",
+            "author": "George Addair"
+        },
+        {
+            "quote": "Hardships often prepare ordinary people for an extraordinary destiny.",
+            "author": "C.S. Lewis"
+        },
+        {
+            "quote": "Dream big and dare to fail.",
+            "author": "Norman Vaughan"
+        },
+        {
+            "quote": "It always seems impossible until it's done.",
+            "author": "Nelson Mandela"
+        },
+        {
+            "quote": "In the middle of every difficulty lies opportunity.",
+            "author": "Albert Einstein"
+        },
+        {
+            "quote": "Action is the foundational key to all success.",
+            "author": "Pablo Picasso"
+        },
+        {
+            "quote": "Don't wait. The time will never be just right.",
+            "author": "Napoleon Hill"
+        },
+        {
+            "quote": "You must be the change you wish to see in the world.",
+            "author": "Mahatma Gandhi"
+        },
+        {
+            "quote": "Whether you think you can or you think you can't, you're right.",
+            "author": "Henry Ford"
+        },
+        {
+            "quote": "Keep your face always toward the sunshine\u2014and shadows will fall behind you.",
+            "author": "Walt Whitman"
+        },
+        {
+            "quote": "Fall seven times and stand up eight.",
+            "author": "Japanese Proverb"
+        },
+        {
+            "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+            "author": "Franklin D. Roosevelt"
+        },
+        {
+            "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+            "author": "Zig Ziglar"
+        },
+        {
+            "quote": "I am not a product of my circumstances. I am a product of my decisions.",
+            "author": "Stephen Covey"
+        },
+        {
+            "quote": "Do what you can, with what you have, where you are.",
+            "author": "Theodore Roosevelt"
+        },
+        {
+            "quote": "Quality is not an act, it is a habit.",
+            "author": "Aristotle"
+        },
+        {
+            "quote": "If you want to lift yourself up, lift up someone else.",
+            "author": "Booker T. Washington"
+        },
+        {
+            "quote": "You are never too old to set another goal or to dream a new dream.",
+            "author": "C.S. Lewis"
+        },
+        {
+            "quote": "Someday is not a day of the week.",
+            "author": "Janet Dailey"
+        },
+        {
+            "quote": "Make each day your masterpiece.",
+            "author": "John Wooden"
+        },
+        {
+            "quote": "Light tomorrow with today.",
+            "author": "Elizabeth Barrett Browning"
+        },
+        {
+            "quote": "Even if you are on the right track, you'll get run over if you just sit there.",
+            "author": "Will Rogers"
+        },
+        {
+            "quote": "Attitude is a little thing that makes a big difference.",
+            "author": "Winston Churchill"
+        },
+        {
+            "quote": "To live a creative life, we must lose our fear of being wrong.",
+            "author": "Joseph Chilton Pearce"
+        },
+        {
+            "quote": "If you are not willing to risk the usual, you will have to settle for the ordinary.",
+            "author": "Jim Rohn"
+        },
+        {
+            "quote": "Trust because you are willing to accept the risk, not because it's safe or certain.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Take up one idea. Make that one idea your life.",
+            "author": "Swami Vivekananda"
+        },
+        {
+            "quote": "All our dreams can come true if we have the courage to pursue them.",
+            "author": "Walt Disney"
+        },
+        {
+            "quote": "Good things come to people who wait, but better things come to those who go out and get them.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "If you do what you always did, you will get what you always got.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+            "author": "Winston Churchill"
+        },
+        {
+            "quote": "Just when the caterpillar thought the world was ending, he turned into a butterfly.",
+            "author": "Proverb"
+        },
+        {
+            "quote": "Successful entrepreneurs are givers and not takers of positive energy.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them.",
+            "author": "Vaibhav Shah"
+        },
+        {
+            "quote": "Opportunities don't happen, you create them.",
+            "author": "Chris Grosser"
+        },
+        {
+            "quote": "Try not to become a person of success, but rather try to become a person of value.",
+            "author": "Albert Einstein"
+        },
+        {
+            "quote": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+            "author": "Eleanor Roosevelt"
+        },
+        {
+            "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+            "author": "Thomas A. Edison"
+        },
+        {
+            "quote": "If you don't value your time, neither will others. Stop giving away your time and talents- start charging for it.",
+            "author": "Kim Garst"
+        },
+        {
+            "quote": "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
+            "author": "David Brinkley"
+        },
+        {
+            "quote": "No one can make you feel inferior without your consent.",
+            "author": "Eleanor Roosevelt"
+        },
+        {
+            "quote": "The whole secret of a successful life is to find out what is one's destiny to do, and then do it.",
+            "author": "Henry Ford"
+        },
+        {
+            "quote": "If you're going through hell, keep going.",
+            "author": "Winston Churchill"
+        },
+        {
+            "quote": "The ones who are crazy enough to think they can change the world, are the ones who do.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Don't raise your voice, improve your argument.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "What seems to us as bitter trials are often blessings in disguise.",
+            "author": "Oscar Wilde"
+        },
+        {
+            "quote": "The meaning of life is to find your gift. The purpose of life is to give it away.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "The distance between insanity and genius is measured only by success.",
+            "author": "Bruce Feirstein"
+        },
+        {
+            "quote": "When you stop chasing the wrong things, you give the right things a chance to catch you.",
+            "author": "Lolly Daskal"
+        },
+        {
+            "quote": "I believe that the only courage anybody ever needs is the courage to follow your own dreams.",
+            "author": "Oprah Winfrey"
+        },
+        {
+            "quote": "No masterpiece was ever created by a lazy artist.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Happiness is a butterfly, which when pursued, is always just beyond your grasp, but which, if you will sit down quietly, may alight upon you.",
+            "author": "Nathaniel Hawthorne"
+        },
+        {
+            "quote": "If you can't explain it simply, you don't understand it well enough.",
+            "author": "Albert Einstein"
+        },
+        {
+            "quote": "Blessed are those who can give without remembering and take without forgetting.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Do one thing every day that scares you.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "What's the point of being alive if you don't at least try to do something remarkable.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Life is not about finding yourself. Life is about creating yourself.",
+            "author": "Lolly Daskal"
+        },
+        {
+            "quote": "Nothing in the world is more common than unsuccessful people with talent.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Knowledge is being aware of what you can do. Wisdom is knowing when not to do it.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Your problem isn't the problem. Your reaction is the problem.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "You can do anything, but not everything.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "Innovation distinguishes between a leader and a follower.",
+            "author": "Steve Jobs"
+        },
+        {
+            "quote": "There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed.",
+            "author": "Ray Goforth"
+        },
+        {
+            "quote": "Thinking should become your capital asset, no matter whatever ups and downs you come across in your life.",
+            "author": "A.P.J. Abdul Kalam"
+        },
+        {
+            "quote": "I find that the harder I work, the more luck I seem to have.",
+            "author": "Thomas Jefferson"
+        },
+        {
+            "quote": "The starting point of all achievement is desire.",
+            "author": "Napoleon Hill"
+        },
+        {
+            "quote": "Success is the sum of small efforts, repeated day-in and day-out.",
+            "author": "Robert Collier"
+        },
+        {
+            "quote": "If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work.",
+            "author": "Thomas J. Watson"
+        },
+        {
+            "quote": "All progress takes place outside the comfort zone.",
+            "author": "Michael John Bobak"
+        },
+        {
+            "quote": "You may only succeed if you desire succeeding; you may only fail if you do not mind failing.",
+            "author": "Philippos"
+        },
+        {
+            "quote": "Courage is resistance to fear, mastery of fear - not absence of fear.",
+            "author": "Mark Twain"
+        },
+        {
+            "quote": "Only put off until tomorrow what you are willing to die having left undone.",
+            "author": "Pablo Picasso"
+        },
+        {
+            "quote": "People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily.",
+            "author": "Zig Ziglar"
+        },
+        {
+            "quote": "We become what we think about most of the time, and that's the strangest secret.",
+            "author": "Earl Nightingale"
+        },
+        {
+            "quote": "The only place where success comes before work is in the dictionary.",
+            "author": "Vidal Sassoon"
+        },
+        {
+            "quote": "The best reason to start an organization is to make meaning; to create a product or service to make the world a better place.",
+            "author": "Guy Kawasaki"
+        },
+        {
+            "quote": "I find that when you have a real interest in life and a curious life, that sleep is not the most important thing.",
+            "author": "Martha Stewart"
+        },
+        {
+            "quote": "It's not what you look at that matters, it's what you see.",
+            "author": "Anonymous"
+        },
+        {
+            "quote": "The road to success and the road to failure are almost exactly the same.",
+            "author": "Colin R. Davis"
+        },
+        {
+            "quote": "The function of leadership is to produce more leaders, not more followers.",
+            "author": "Ralph Nader"
+        },
+        {
+            "quote": "Success is liking yourself, liking what you do, and liking how you do it.",
+            "author": "Maya Angelou"
+        },
+        {
+            "quote": "As we look ahead into the next century, leaders will be those who empower others.",
+            "author": "Bill Gates"
+        },
+        {
+            "quote": "A real entrepreneur is somebody who has no safety net underneath them.",
+            "author": "Henry Kravis"
+        },
+        {
+            "quote": "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.",
+            "author": "Mark Caine"
+        },
+        {
+            "quote": "People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed.",
+            "author": "Tony Robbins"
+        },
+        {
+            "quote": "When I dare to be powerful - to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.",
+            "author": "Audre Lorde"
+        },
+        {
+            "quote": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+            "author": "Mark Twain"
+        },
+        {
+            "quote": "The successful warrior is the average man, with laser-like focus.",
+            "author": "Bruce Lee"
+        }
+    ],
+    "lifeAdvice": [
+        "Learn how to walk in nature because you deserve it.",
+        "Always remember to disconnect from screens and build stronger habits.",
+        "Encourage others to drink plenty of water because you deserve it.",
+        "Find a way to take a deep breath because you deserve it.",
+        "Always remember to listen before speaking to maintain a clear mind.",
+        "Allow yourself to save for the future to nurture your soul.",
+        "Never forget to read a good book and build stronger habits.",
+        "Always remember to read a good book to nurture your soul.",
+        "Make time to walk in nature to nurture your soul.",
+        "Always remember to walk in nature to stay grounded.",
+        "Challenge yourself to take a deep breath to find inner peace.",
+        "Challenge yourself to read a good book to find inner peace.",
+        "Find a way to help a stranger to find inner peace.",
+        "Never forget to listen before speaking to stay grounded.",
+        "Be brave enough to save for the future to stay grounded.",
+        "Be brave enough to listen before speaking and build stronger habits.",
+        "Encourage others to forgive past mistakes for your own well-being.",
+        "Take a moment to forgive past mistakes because you deserve it.",
+        "Be brave enough to express gratitude for your own well-being.",
+        "Learn how to listen before speaking and keep moving forward.",
+        "Always remember to save for the future and watch your life improve.",
+        "Make time to drink plenty of water for your own well-being.",
+        "Always remember to forgive past mistakes and build stronger habits.",
+        "Allow yourself to express gratitude to find inner peace.",
+        "Always remember to drink plenty of water to stay grounded.",
+        "Allow yourself to listen before speaking and build stronger habits.",
+        "Find a way to drink plenty of water and build stronger habits.",
+        "Learn how to forgive past mistakes to find inner peace.",
+        "Never forget to take a deep breath to maintain a clear mind.",
+        "Challenge yourself to forgive past mistakes and keep moving forward.",
+        "Challenge yourself to save for the future and keep moving forward.",
+        "Encourage others to listen before speaking to maintain a clear mind.",
+        "Take a moment to walk in nature for your own well-being.",
+        "Find a way to disconnect from screens for your own well-being.",
+        "Learn how to take a deep breath because you deserve it.",
+        "Take a moment to disconnect from screens to nurture your soul.",
+        "Allow yourself to read a good book for your own well-being.",
+        "Encourage others to disconnect from screens for your own well-being.",
+        "Be brave enough to walk in nature and watch your life improve.",
+        "Learn how to help a stranger because you deserve it.",
+        "Never forget to forgive past mistakes and keep moving forward.",
+        "Take a moment to read a good book to nurture your soul.",
+        "Make time to disconnect from screens to nurture your soul.",
+        "Find a way to walk in nature and watch your life improve.",
+        "Challenge yourself to disconnect from screens for a better tomorrow.",
+        "Encourage others to help a stranger for your own well-being.",
+        "Find a way to save for the future to nurture your soul.",
+        "Make time to help a stranger and watch your life improve.",
+        "Take a moment to listen before speaking and watch your life improve.",
+        "Make time to forgive past mistakes and build stronger habits.",
+        "Take a moment to drink plenty of water and build stronger habits.",
+        "Find a way to express gratitude for your own well-being.",
+        "Always remember to take a deep breath for your own well-being.",
+        "Learn how to drink plenty of water to find inner peace.",
+        "Be brave enough to take a deep breath for a better tomorrow.",
+        "Be brave enough to read a good book to maintain a clear mind.",
+        "Make time to read a good book to stay grounded.",
+        "Make time to listen before speaking because you deserve it.",
+        "Learn how to disconnect from screens and keep moving forward.",
+        "Encourage others to take a deep breath for your own well-being.",
+        "Take a moment to save for the future and keep moving forward.",
+        "Encourage others to save for the future because you deserve it.",
+        "Always remember to help a stranger for your own well-being.",
+        "Challenge yourself to express gratitude and keep moving forward.",
+        "Challenge yourself to drink plenty of water and build stronger habits.",
+        "Find a way to forgive past mistakes and build stronger habits.",
+        "Never forget to walk in nature for your own well-being.",
+        "Challenge yourself to walk in nature and build stronger habits.",
+        "Allow yourself to help a stranger for a better tomorrow.",
+        "Challenge yourself to help a stranger to maintain a clear mind.",
+        "Make time to take a deep breath because you deserve it.",
+        "Be brave enough to drink plenty of water and watch your life improve.",
+        "Be brave enough to disconnect from screens and watch your life improve.",
+        "Allow yourself to forgive past mistakes and build stronger habits.",
+        "Never forget to disconnect from screens for a better tomorrow.",
+        "Allow yourself to drink plenty of water to maintain a clear mind.",
+        "Make time to save for the future and build stronger habits.",
+        "Allow yourself to walk in nature because you deserve it.",
+        "Take a moment to help a stranger to find inner peace.",
+        "Be brave enough to forgive past mistakes to find inner peace.",
+        "Allow yourself to disconnect from screens for your own well-being.",
+        "Always remember to express gratitude because you deserve it.",
+        "Find a way to listen before speaking and keep moving forward.",
+        "Never forget to save for the future to maintain a clear mind.",
+        "Allow yourself to take a deep breath for your own well-being.",
+        "Be brave enough to help a stranger to find inner peace.",
+        "Take a moment to take a deep breath to nurture your soul.",
+        "Encourage others to express gratitude to stay grounded.",
+        "Learn how to read a good book to nurture your soul.",
+        "Encourage others to read a good book to nurture your soul.",
+        "Never forget to express gratitude and build stronger habits.",
+        "Challenge yourself to listen before speaking to find inner peace.",
+        "Find a way to read a good book for your own well-being.",
+        "Learn how to save for the future because you deserve it.",
+        "Make time to express gratitude to nurture your soul.",
+        "Never forget to help a stranger for your own well-being.",
+        "Take a moment to express gratitude and build stronger habits.",
+        "Never forget to drink plenty of water for your own well-being.",
+        "Encourage others to walk in nature and keep moving forward.",
+        "Learn how to express gratitude for your own well-being."
+    ],
+    "dailyAffirmations": [
+        "I am focused and I inspire others.",
+        "I radiate successful and it shows in my actions.",
+        "I give myself permission to be joyful and I am proud of myself.",
+        "I am growing more joyful in every situation.",
+        "I choose to be unstoppable and nothing can hold me back.",
+        "Today I will be peaceful and I trust my journey.",
+        "I radiate joyful and I inspire others.",
+        "My mind is focused on being peaceful and I welcome positivity.",
+        "I confidently declare I am unstoppable in every situation.",
+        "I have the power to be resilient and I am proud of myself.",
+        "I am growing more resilient and I welcome positivity.",
+        "My mind is focused on being abundant and I trust my journey.",
+        "I choose to be peaceful in every situation.",
+        "I am unstoppable and nothing can hold me back.",
+        "I confidently declare I am peaceful and it shows in my actions.",
+        "I have the power to be courageous and it shows in my actions.",
+        "Today I will be resilient and it shows in my actions.",
+        "My mind is focused on being courageous today.",
+        "I radiate loved and I trust my journey.",
+        "I am courageous and it shows in my actions.",
+        "I give myself permission to be peaceful and I attract good things.",
+        "I am abundant and it shows in my actions.",
+        "I confidently declare I am joyful and nothing can hold me back.",
+        "I give myself permission to be courageous and I am proud of myself.",
+        "I embrace being abundant today.",
+        "I choose to be focused and it shows in my actions.",
+        "I radiate unstoppable and I am grateful for it.",
+        "Today I will be unstoppable and it shows in my actions.",
+        "I embrace being successful and it shows in my actions.",
+        "I choose to be resilient and I trust my journey.",
+        "Today I will be abundant and I inspire others.",
+        "I choose to be successful and I trust my journey.",
+        "I embrace being peaceful today.",
+        "I choose to be courageous and I am grateful for it.",
+        "My mind is focused on being strong and I attract good things.",
+        "I am growing more abundant and I am grateful for it.",
+        "I am successful and I attract good things.",
+        "I embrace being unstoppable and I attract good things.",
+        "I radiate peaceful and I welcome positivity.",
+        "I have the power to be joyful and I am grateful for it.",
+        "My mind is focused on being unstoppable and it shows in my actions.",
+        "I confidently declare I am resilient and I trust my journey.",
+        "I am growing more peaceful and I am grateful for it.",
+        "My mind is focused on being resilient and it shows in my actions.",
+        "I confidently declare I am focused and I am proud of myself.",
+        "I give myself permission to be focused and I inspire others.",
+        "I have the power to be successful and I welcome positivity.",
+        "I radiate focused and I am proud of myself.",
+        "I radiate abundant and I am proud of myself.",
+        "I have the power to be abundant in every situation.",
+        "Today I will be successful today.",
+        "I have the power to be unstoppable and I attract good things.",
+        "My mind is focused on being joyful and nothing can hold me back.",
+        "I have the power to be loved and I am grateful for it.",
+        "I have the power to be strong and I welcome positivity.",
+        "I am resilient and I inspire others.",
+        "I choose to be abundant today.",
+        "I have the power to be peaceful and I trust my journey.",
+        "I embrace being resilient and I welcome positivity.",
+        "Today I will be strong and I am proud of myself.",
+        "I choose to be strong and I trust my journey.",
+        "I confidently declare I am strong and I attract good things.",
+        "I am loved in every situation.",
+        "My mind is focused on being successful and I inspire others.",
+        "I give myself permission to be strong and I attract good things.",
+        "I embrace being strong and I attract good things.",
+        "I have the power to be focused and I inspire others.",
+        "Today I will be courageous and I attract good things.",
+        "I am growing more unstoppable and I welcome positivity.",
+        "I am growing more successful and I inspire others.",
+        "I confidently declare I am courageous and I inspire others.",
+        "I am growing more courageous and I attract good things.",
+        "I give myself permission to be successful today.",
+        "I embrace being courageous and it shows in my actions.",
+        "I give myself permission to be loved in every situation.",
+        "Today I will be loved and nothing can hold me back.",
+        "I am growing more strong and it shows in my actions.",
+        "Today I will be joyful and I am grateful for it.",
+        "I choose to be loved and it shows in my actions.",
+        "I embrace being loved and nothing can hold me back.",
+        "I radiate courageous and I inspire others.",
+        "I give myself permission to be unstoppable and I am grateful for it.",
+        "I am peaceful and nothing can hold me back.",
+        "I am joyful and it shows in my actions.",
+        "I radiate resilient and I trust my journey.",
+        "I embrace being focused today.",
+        "My mind is focused on being focused and I attract good things.",
+        "My mind is focused on being loved today.",
+        "I am growing more loved and I am proud of myself.",
+        "I radiate strong in every situation.",
+        "I give myself permission to be abundant today.",
+        "I confidently declare I am successful and I attract good things.",
+        "Today I will be focused and I attract good things.",
+        "I embrace being joyful and I inspire others.",
+        "I am growing more focused and I welcome positivity.",
+        "I am strong in every situation.",
+        "I confidently declare I am loved in every situation.",
+        "I choose to be joyful and nothing can hold me back.",
+        "I confidently declare I am abundant and I inspire others.",
+        "I give myself permission to be resilient and I trust my journey."
+    ],
+    "bibleVerses": [
+        {
+            "reference": "John 3:16",
+            "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+        },
+        {
+            "reference": "Jeremiah 29:11",
+            "text": "For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future."
+        },
+        {
+            "reference": "Philippians 4:13",
+            "text": "I can do all this through him who gives me strength."
+        },
+        {
+            "reference": "Romans 8:28",
+            "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose."
+        },
+        {
+            "reference": "Proverbs 3:5-6",
+            "text": "Trust in the LORD with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight."
+        },
+        {
+            "reference": "Isaiah 41:10",
+            "text": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand."
+        },
+        {
+            "reference": "Psalm 23:1",
+            "text": "The LORD is my shepherd, I lack nothing."
+        },
+        {
+            "reference": "Psalm 46:1",
+            "text": "God is our refuge and strength, an ever-present help in trouble."
+        },
+        {
+            "reference": "Galatians 5:22-23",
+            "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control."
+        },
+        {
+            "reference": "Hebrews 11:1",
+            "text": "Now faith is confidence in what we hope for and assurance about what we do not see."
+        },
+        {
+            "reference": "2 Timothy 1:7",
+            "text": "For the Spirit God gave us does not make us timid, but gives us power, love and self-discipline."
+        },
+        {
+            "reference": "Corinthians 16:14",
+            "text": "Do everything in love."
+        },
+        {
+            "reference": "Proverbs 18:10",
+            "text": "The name of the LORD is a fortified tower; the righteous run to it and are safe."
+        },
+        {
+            "reference": "Psalm 119:105",
+            "text": "Your word is a lamp for my feet, a light on my path."
+        },
+        {
+            "reference": "James 1:2",
+            "text": "Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds."
+        },
+        {
+            "reference": "1 Peter 5:7",
+            "text": "Cast all your anxiety on him because he cares for you."
+        },
+        {
+            "reference": "Ephesians 2:8",
+            "text": "For it is by grace you have been saved, through faith\u2014and this is not from yourselves, it is the gift of God."
+        },
+        {
+            "reference": "Matthew 11:28",
+            "text": "Come to me, all you who are weary and burdened, and I will give you rest."
+        },
+        {
+            "reference": "Romans 12:2",
+            "text": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind."
+        },
+        {
+            "reference": "Joshua 1:9",
+            "text": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the LORD your God will be with you wherever you go."
+        },
+        {
+            "reference": "Isaiah 40:31",
+            "text": "But those who hope in the LORD will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
+        },
+        {
+            "reference": "Matthew 6:33",
+            "text": "But seek first his kingdom and his righteousness, and all these things will be given to you as well."
+        },
+        {
+            "reference": "Colossians 3:2",
+            "text": "Set your minds on things above, not on earthly things."
+        },
+        {
+            "reference": "Romans 15:13",
+            "text": "May the God of hope fill you with all joy and peace as you trust in him."
+        },
+        {
+            "reference": "1 Corinthians 13:4",
+            "text": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud."
+        },
+        {
+            "reference": "Philippians 4:6",
+            "text": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God."
+        },
+        {
+            "reference": "Psalm 27:1",
+            "text": "The LORD is my light and my salvation\u2014whom shall I fear?"
+        },
+        {
+            "reference": "Matthew 5:14",
+            "text": "You are the light of the world. A town built on a hill cannot be hidden."
+        },
+        {
+            "reference": "Psalm 139:14",
+            "text": "I praise you because I am fearfully and wonderfully made."
+        },
+        {
+            "reference": "Isaiah 9:6",
+            "text": "For to us a child is born, to us a son is given..."
+        },
+        {
+            "reference": "Romans 3:23",
+            "text": "For all have sinned and fall short of the glory of God."
+        },
+        {
+            "reference": "Romans 6:23",
+            "text": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."
+        },
+        {
+            "reference": "John 14:6",
+            "text": "Jesus answered, 'I am the way and the truth and the life. No one comes to the Father except through me.'"
+        },
+        {
+            "reference": "Acts 4:12",
+            "text": "Salvation is found in no one else, for there is no other name under heaven given to mankind by which we must be saved."
+        },
+        {
+            "reference": "1 John 1:9",
+            "text": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness."
+        },
+        {
+            "reference": "Revelation 3:20",
+            "text": "Here I am! I stand at the door and knock."
+        },
+        {
+            "reference": "Ephesians 2:10",
+            "text": "For we are God\u2019s handiwork, created in Christ Jesus to do good works."
+        },
+        {
+            "reference": "Galatians 2:20",
+            "text": "I have been crucified with Christ and I no longer live, but Christ lives in me."
+        },
+        {
+            "reference": "Philippians 1:6",
+            "text": "Being confident of this, that he who began a good work in you will carry it on to completion."
+        },
+        {
+            "reference": "Colossians 3:23",
+            "text": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters."
+        },
+        {
+            "reference": "1 Thessalonians 5:16-18",
+            "text": "Rejoice always, pray continually, give thanks in all circumstances."
+        },
+        {
+            "reference": "Hebrews 12:1-2",
+            "text": "Let us run with perseverance the race marked out for us, fixing our eyes on Jesus."
+        },
+        {
+            "reference": "James 4:7",
+            "text": "Submit yourselves, then, to God. Resist the devil, and he will flee from you."
+        },
+        {
+            "reference": "1 Peter 2:9",
+            "text": "But you are a chosen people, a royal priesthood, a holy nation, God\u2019s special possession."
+        },
+        {
+            "reference": "1 John 4:8",
+            "text": "Whoever does not love does not know God, because God is love."
+        },
+        {
+            "reference": "Revelation 21:4",
+            "text": "He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain."
+        },
+        {
+            "reference": "Genesis 1:1",
+            "text": "In the beginning God created the heavens and the earth."
+        },
+        {
+            "reference": "Exodus 20:3",
+            "text": "You shall have no other gods before me."
+        },
+        {
+            "reference": "Leviticus 19:18",
+            "text": "Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as yourself."
+        },
+        {
+            "reference": "Deuteronomy 6:5",
+            "text": "Love the LORD your God with all your heart and with all your soul and with all your strength."
+        },
+        {
+            "reference": "Nehemiah 8:10",
+            "text": "The joy of the LORD is your strength."
+        },
+        {
+            "reference": "Job 19:25",
+            "text": "I know that my redeemer lives, and that in the end he will stand on the earth."
+        },
+        {
+            "reference": "Psalm 19:1",
+            "text": "The heavens declare the glory of God; the skies proclaim the work of his hands."
+        },
+        {
+            "reference": "Psalm 34:8",
+            "text": "Taste and see that the LORD is good; blessed is the one who takes refuge in him."
+        },
+        {
+            "reference": "Psalm 51:10",
+            "text": "Create in me a pure heart, O God, and renew a steadfast spirit within me."
+        },
+        {
+            "reference": "Psalm 103:1",
+            "text": "Praise the LORD, my soul; all my inmost being, praise his holy name."
+        },
+        {
+            "reference": "Proverbs 16:9",
+            "text": "In their hearts humans plan their course, but the LORD establishes their steps."
+        },
+        {
+            "reference": "Ecclesiastes 3:1",
+            "text": "There is a time for everything, and a season for every activity under the heavens."
+        },
+        {
+            "reference": "Isaiah 53:5",
+            "text": "But he was pierced for our transgressions, he was crushed for our iniquities."
+        },
+        {
+            "reference": "Jeremiah 33:3",
+            "text": "Call to me and I will answer you and tell you great and unsearchable things you do not know."
+        },
+        {
+            "reference": "Lamentations 3:22-23",
+            "text": "Because of the LORD\u2019s great love we are not consumed, for his compassions never fail. They are new every morning."
+        },
+        {
+            "reference": "Ezekiel 36:26",
+            "text": "I will give you a new heart and put a new spirit in you."
+        },
+        {
+            "reference": "Daniel 12:3",
+            "text": "Those who are wise will shine like the brightness of the heavens."
+        },
+        {
+            "reference": "Micah 6:8",
+            "text": "He has shown you, O mortal, what is good. And what does the LORD require of you? To act justly and to love mercy and to walk humbly with your God."
+        },
+        {
+            "reference": "Zephaniah 3:17",
+            "text": "The LORD your God is with you, the Mighty Warrior who saves."
+        },
+        {
+            "reference": "Matthew 16:26",
+            "text": "What good will it be for someone to gain the whole world, yet forfeit their soul?"
+        },
+        {
+            "reference": "Matthew 28:19",
+            "text": "Therefore go and make disciples of all nations."
+        },
+        {
+            "reference": "Mark 10:27",
+            "text": "Jesus looked at them and said, 'With man this is impossible, but not with God; all things are possible with God.'"
+        },
+        {
+            "reference": "Luke 1:37",
+            "text": "For no word from God will ever fail."
+        },
+        {
+            "reference": "Luke 9:23",
+            "text": "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me."
+        },
+        {
+            "reference": "Luke 19:10",
+            "text": "For the Son of Man came to seek and to save the lost."
+        },
+        {
+            "reference": "John 1:1",
+            "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+        },
+        {
+            "reference": "John 10:10",
+            "text": "The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full."
+        },
+        {
+            "reference": "John 15:5",
+            "text": "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing."
+        },
+        {
+            "reference": "Acts 1:8",
+            "text": "But you will receive power when the Holy Spirit comes on you."
+        },
+        {
+            "reference": "Romans 5:8",
+            "text": "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us."
+        },
+        {
+            "reference": "Romans 10:9",
+            "text": "If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved."
+        },
+        {
+            "reference": "1 Corinthians 10:13",
+            "text": "No temptation has overtaken you except what is common to mankind."
+        },
+        {
+            "reference": "2 Corinthians 5:17",
+            "text": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+        },
+        {
+            "reference": "2 Corinthians 12:9",
+            "text": "But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.'"
+        },
+        {
+            "reference": "Galatians 6:9",
+            "text": "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up."
+        },
+        {
+            "reference": "Ephesians 4:32",
+            "text": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you."
+        },
+        {
+            "reference": "Ephesians 6:11",
+            "text": "Put on the full armor of God, so that you can take your stand against the devil\u2019s schemes."
+        },
+        {
+            "reference": "Philippians 2:3",
+            "text": "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves."
+        },
+        {
+            "reference": "Colossians 1:16",
+            "text": "For in him all things were created: things in heaven and on earth."
+        },
+        {
+            "reference": "1 Thessalonians 4:13",
+            "text": "Brothers and sisters, we do not want you to be uninformed about those who sleep in death."
+        },
+        {
+            "reference": "2 Timothy 3:16",
+            "text": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness."
+        },
+        {
+            "reference": "Hebrews 4:12",
+            "text": "For the word of God is alive and active."
+        },
+        {
+            "reference": "Hebrews 10:24",
+            "text": "And let us consider how we may spur one another on toward love and good deeds."
+        },
+        {
+            "reference": "Hebrews 13:5",
+            "text": "Keep your lives free from the love of money and be content with what you have."
+        },
+        {
+            "reference": "James 1:5",
+            "text": "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault."
+        },
+        {
+            "reference": "James 5:16",
+            "text": "Therefore confess your sins to each other and pray for each other so that you may be healed."
+        },
+        {
+            "reference": "1 Peter 3:15",
+            "text": "But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have."
+        },
+        {
+            "reference": "1 John 3:1",
+            "text": "See what great love the Father has lavished on us, that we should be called children of God!"
+        },
+        {
+            "reference": "1 John 5:14",
+            "text": "This is the confidence we have in approaching God: that if we ask anything according to his will, he hears us."
+        },
+        {
+            "reference": "Jude 1:24",
+            "text": "To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy."
+        },
+        {
+            "reference": "Revelation 22:13",
+            "text": "I am the Alpha and the Omega, the First and the Last, the Beginning and the End."
+        },
+        {
+            "reference": "Psalm 1:1",
+            "text": "Blessed is the one who does not walk in step with the wicked."
+        },
+        {
+            "reference": "Psalm 121:1",
+            "text": "I lift up my eyes to the mountains\u2014where does my help come from?"
+        },
+        {
+            "reference": "Proverbs 4:23",
+            "text": "Above all else, guard your heart, for everything you do flows from it."
+        }
+    ]
+}
