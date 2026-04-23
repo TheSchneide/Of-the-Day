@@ -6,6 +6,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   const quoteText = document.getElementById("quoteText");
   const quoteAuthor = document.getElementById("quoteAuthor");
   const hintText = document.getElementById("hintText");
+  const favoriteLink = document.querySelector(".favorite");
+  const dashboardLink = document.getElementById("dashboardNav");
+  const favoritesNavLink = document.getElementById("favoritesNav");
+  const favoritesPage = document.querySelector(".favorites-page");
+  const favoritesList = document.querySelector(".favorites-list");
+  const emptyFavorites = document.getElementById("emptyFavorites");
 
   const categories = [
     { key: "motivationalQuotes", label: "Motivational Quote", icon: "✊" },
@@ -29,6 +35,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     };
   }
 
+  const favoritesStorageKey = "oftheday:favorites";
+  let favorites = loadFavorites();
   const lastIndexes = {
     motivationalQuotes: -1,
     dailyAffirmations: -1,
@@ -39,6 +47,117 @@ document.addEventListener("DOMContentLoaded", async () => {
   let activeCategoryKey = categories[0].key;
   let currentState = null;
   const historyStack = [];
+
+  function loadFavorites() {
+    try {
+      return JSON.parse(localStorage.getItem(favoritesStorageKey)) || [];
+    } catch (_) {
+      return [];
+    }
+  }
+
+  function saveFavorites() {
+    localStorage.setItem(favoritesStorageKey, JSON.stringify(favorites));
+  }
+
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      // Optionally, show a toast or feedback
+      console.log("Copied to clipboard:", text);
+    }).catch(err => {
+      console.error("Failed to copy:", err);
+    });
+  }
+
+  function getFavoriteIdFromState(state) {
+    return state ? `${state.categoryKey}::${state.quote}` : "";
+  }
+
+  function isCurrentFavorite() {
+    return currentState && favorites.some((favorite) => favorite.id === currentState.id);
+  }
+
+  function updateFavoriteButton() {
+    if (!favoriteLink) return;
+    favoriteLink.classList.toggle("liked", isCurrentFavorite());
+  }
+
+  function renderFavorites() {
+    if (!favoritesPage || !favoritesList || !emptyFavorites) return;
+
+    favoritesList.innerHTML = "";
+    if (!favorites.length) {
+      emptyFavorites.style.display = "block";
+      return;
+    }
+
+    emptyFavorites.style.display = "none";
+
+    favorites.forEach((favorite) => {
+      const item = document.createElement("article");
+      item.className = "favorite-item";
+      item.innerHTML = `
+        <blockquote>${favorite.quote}</blockquote>
+        <small>${favorite.author ? `– ${favorite.author}` : ""}</small>
+        <div class="favorite-actions">
+          <button class="copy-button">📋</button>
+          <button class="remove-favorite">Remove</button>
+        </div>
+      `;
+
+      item.querySelector(".copy-button").addEventListener("click", () => {
+        copyToClipboard(favorite.quote);
+      });
+
+      item.querySelector(".remove-favorite").addEventListener("click", () => {
+        removeFavorite(favorite.id);
+        renderFavorites();
+      });
+
+      favoritesList.appendChild(item);
+    });
+  }
+
+  function addFavorite(state) {
+    if (!state || favorites.some((favorite) => favorite.id === state.id)) return;
+
+    favorites.push({
+      id: state.id,
+      categoryKey: state.categoryKey,
+      label: state.label,
+      quote: state.quote,
+      author: state.author
+    });
+
+    saveFavorites();
+  }
+
+  function removeFavorite(id) {
+    favorites = favorites.filter((favorite) => favorite.id !== id);
+    saveFavorites();
+  }
+
+  function showDashboardPage() {
+    cardsContainer.classList.remove("hidden");
+    heroCard.classList.remove("hidden");
+    favoritesPage.classList.add("hidden");
+    setActiveNav(dashboardLink);
+  }
+
+  function showFavoritesPage() {
+    cardsContainer.classList.add("hidden");
+    heroCard.classList.add("hidden");
+    favoritesPage.classList.remove("hidden");
+    setActiveNav(favoritesNavLink);
+    renderFavorites();
+  }
+
+  function setActiveNav(link) {
+    [dashboardLink, favoritesNavLink].forEach((navLink) => {
+      if (!navLink) return;
+      navLink.classList.toggle("active", navLink === link);
+    });
+  }
 
   function updateBackButton() {
     if (!backButton) return;
@@ -78,7 +197,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       historyStack.push(currentState);
     }
 
-    currentState = { ...state };
+    currentState = { ...state, id: getFavoriteIdFromState(state) };
     activeCategoryKey = state.categoryKey;
 
     document.querySelectorAll(".option").forEach((option) => {
@@ -91,7 +210,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (hintText) {
       hintText.textContent = "Click for another card.";
     }
+
     updateBackButton();
+    updateFavoriteButton();
+    showDashboardPage();
   }
 
   function refreshCurrentCategory() {
@@ -134,7 +256,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   if (heroCard) {
     heroCard.addEventListener("click", (event) => {
-      if (event.target.closest(".favorite") || event.target.closest(".back-button")) return;
+      if (event.target.closest(".favorite") || event.target.closest(".back-button") || event.target.closest(".copy-button")) return;
       refreshCurrentCategory();
     });
   }
@@ -144,6 +266,45 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (historyStack.length === 0) return;
       const previousState = historyStack.pop();
       applyState(previousState, false);
+    });
+  }
+
+  if (favoriteLink) {
+    favoriteLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      if (!currentState) return;
+      if (isCurrentFavorite()) {
+        removeFavorite(currentState.id);
+      } else {
+        addFavorite(currentState);
+      }
+      updateFavoriteButton();
+      if (favoritesPage && !favoritesPage.classList.contains("hidden")) {
+        renderFavorites();
+      }
+    });
+  }
+
+  const copyButton = document.getElementById("copyButton");
+  if (copyButton) {
+    copyButton.addEventListener("click", () => {
+      if (currentState) {
+        copyToClipboard(currentState.quote);
+      }
+    });
+  }
+
+  if (dashboardLink) {
+    dashboardLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      showDashboardPage();
+    });
+  }
+
+  if (favoritesNavLink) {
+    favoritesNavLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      showFavoritesPage();
     });
   }
 

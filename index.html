@@ -11,8 +11,8 @@
     <header>
       <div class="brand">Of the Day</div>
       <nav class="nav">
-        <a href="#" class="active">Dashboard</a>
-        <a href="#">My Favorites</a>
+        <a href="#" class="active" id="dashboardNav">Dashboard</a>
+        <a href="#" id="favoritesNav">My Favorites</a>
       </nav>
     </header>
 
@@ -34,7 +34,19 @@
       </blockquote>
       <small id="quoteAuthor">– Steve Jobs</small>
       <div class="hint" id="hintText">Click for another card.</div>
+      <button class="copy-button" id="copyButton" title="Copy quote">📋</button>
     </article>
+
+    <section class="favorites-page hidden">
+      <div class="favorites-header">
+        <h2>Your Favorites</h2>
+        <p class="favorites-note">Saved items appear here. Click remove to delete any item.</p>
+      </div>
+      <div class="favorites-list"></div>
+      <div class="empty-favorites" id="emptyFavorites">
+        You don't have any favorites yet. Save something with the heart icon.
+      </div>
+    </section>
   </div>
   <script src="index.js" defer></script>
 </body>

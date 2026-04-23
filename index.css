@@ -218,6 +218,123 @@ header {
   stroke-width: 2.2;
 }
 
+.copy-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+  z-index: 2;
+}
+
+.copy-button:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+.favorite.liked svg {
+  fill: #ff0000;
+  stroke: #ff0000;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.favorites-page {
+  margin-top: 32px;
+}
+
+.favorites-header {
+  margin-bottom: 20px;
+}
+
+.favorites-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.favorites-note {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.favorites-list {
+  display: grid;
+  gap: 18px;
+}
+
+.favorite-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.favorite-item blockquote {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #111111;
+}
+
+.favorite-item small {
+  display: block;
+  margin-top: 18px;
+  color: var(--muted);
+}
+
+.favorite-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  gap: 12px;
+}
+
+.favorite-item .copy-button {
+  position: static;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  padding: 8px 12px;
+  font-size: 1rem;
+  transform: none;
+}
+
+.favorite-item .copy-button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transform: none;
+}
+
+.remove-favorite {
+  border: none;
+  border-radius: 999px;
+  background: #ff4d4d;
+  color: #ffffff;
+  padding: 10px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.empty-favorites {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
 .quote {
   position: relative;
   font-size: clamp(1.7rem, 2.4vw, 2.7rem);
