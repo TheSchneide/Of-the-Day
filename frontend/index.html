@@ -1,11 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Of the Day</title>
   <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
   <div class="page">
     <header>
@@ -14,6 +16,7 @@
         <a href="#" class="active" id="dashboardNav">Dashboard</a>
         <a href="#" id="favoritesNav">My Favorites</a>
       </nav>
+      <div class="header-spacer"></div>
     </header>
 
     <section class="cards"></section>
@@ -25,7 +28,11 @@
           <button class="back-button" id="backButton" disabled>Back</button>
           <a href="#" class="favorite">
             Add to favorites
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.2-10-8.7C-1 7.5 3 4 6.5 4c1.8 0 3.4.8 4.5 2.1C12.1 4.8 13.7 4 15.5 4 19 4 23 7.5 22 12.3 19 16.8 12 21 12 21z"></path></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 21s-7-4.2-10-8.7C-1 7.5 3 4 6.5 4c1.8 0 3.4.8 4.5 2.1C12.1 4.8 13.7 4 15.5 4 19 4 23 7.5 22 12.3 19 16.8 12 21 12 21z">
+              </path>
+            </svg>
           </a>
         </div>
       </div>
@@ -34,7 +41,13 @@
       </blockquote>
       <small id="quoteAuthor">– Steve Jobs</small>
       <div class="hint" id="hintText">Click for another card.</div>
-      <button class="copy-button" id="copyButton" title="Copy quote">📋</button>
+      <button class="copy-button" id="copyButton" title="Copy quote">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z">
+          </path>
+        </svg>
+      </button>
     </article>
 
     <section class="favorites-page hidden">
@@ -47,7 +60,12 @@
         You don't have any favorites yet. Save something with the heart icon.
       </div>
     </section>
-  </div>
-  <script src="index.js" defer></script>
+    
+    <footer class="site-footer">
+      <p>© 2026 Of the Day | Made by Clive Owen Delima, Francisco Jubelag Jr XX, Eduardo Patalinjug. All Rights Reserved.</p>
+    </footer>
+
+  </div> <script src="index.js" defer></script>
+  <div id="toast" class="toast">Copied to clipboard!</div>
 </body>
 </html>

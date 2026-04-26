@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   let contentData = {};
 
   try {
-    const response = await fetch("http://localhost:3000/api/content");
+    // Tells Node.js to go grab the data from the Spring Boot server!
+    const response = await fetch("http://localhost:8080/api/content"); 
     contentData = await response.json();
   } catch (error) {
     console.error("Unable to load inspirational_content.json:", error);
@@ -44,9 +45,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     bibleVerses: -1
   };
 
-  let activeCategoryKey = categories[0].key;
+  const historyStacks = {
+    motivationalQuotes: [],
+    dailyAffirmations: [],
+    lifeAdvice: [],
+    bibleVerses: []
+  };
+
+  const currentStates = {
+    motivationalQuotes: null,
+    dailyAffirmations: null,
+    lifeAdvice: null,
+    bibleVerses: null
+  };
+  
   let currentState = null;
-  const historyStack = [];
+  let activeCategoryKey = null;
 
   function loadFavorites() {
     try {
@@ -62,8 +76,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
-      // Optionally, show a toast or feedback
-      console.log("Copied to clipboard:", text);
+      // 1. Find the toast element
+      const toast = document.getElementById("toast");
+      if (toast) {
+        // 2. Show the toast
+        toast.classList.add("show");
+
+        // 3. Hide it again after 2.5 seconds (2500 milliseconds)
+        setTimeout(() => {
+          toast.classList.remove("show");
+        }, 2500);
+      }
     }).catch(err => {
       console.error("Failed to copy:", err);
     });
@@ -100,7 +123,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         <blockquote>${favorite.quote}</blockquote>
         <small>${favorite.author ? `– ${favorite.author}` : ""}</small>
         <div class="favorite-actions">
-          <button class="copy-button">📋</button>
+          <button class="copy-button">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"></path>
+            </svg>
+            Copy
+          </button>
           <button class="remove-favorite">Remove</button>
         </div>
       `;
@@ -160,8 +188,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function updateBackButton() {
-    if (!backButton) return;
-    backButton.disabled = historyStack.length === 0;
+    if (!backButton || !activeCategoryKey) return;
+    backButton.disabled = historyStacks[activeCategoryKey].length === 0;
   }
 
   function pickRandomContent(categoryKey) {
@@ -191,13 +219,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     return [item, ""];
   }
 
-  function applyState(state, pushHistory = true) {
+  function applyState(state, isNewCard = false) {
     if (!state) return;
-    if (pushHistory && currentState) {
-      historyStack.push(currentState);
+
+    // Only push to history if we are generating a BRAND NEW card for this category
+    if (isNewCard && currentStates[state.categoryKey]) {
+      historyStacks[state.categoryKey].push(currentStates[state.categoryKey]);
     }
 
-    currentState = { ...state, id: getFavoriteIdFromState(state) };
+    // Save this state as the active one for its specific category
+    const processedState = { ...state, id: getFavoriteIdFromState(state) };
+    currentStates[state.categoryKey] = processedState;
+    
+    // Update global pointers
+    currentState = processedState;
     activeCategoryKey = state.categoryKey;
 
     document.querySelectorAll(".option").forEach((option) => {
@@ -221,15 +256,30 @@ document.addEventListener("DOMContentLoaded", async () => {
     const [quote, author] = pickRandomContent(activeCategoryKey);
     const label = categories.find((category) => category.key === activeCategoryKey)?.label || heroTag.textContent;
 
-    applyState({ categoryKey: activeCategoryKey, label, quote, author }, true);
+    // Passing 'true' pushes the old card to history
+    applyState({ categoryKey: activeCategoryKey, label, quote, author }, true); 
   }
 
   function setActiveCard(cardElement) {
     const categoryKey = cardElement.dataset.category;
     const label = cardElement.dataset.label;
-    const [quote, author] = pickRandomContent(categoryKey);
 
-    applyState({ categoryKey, label, quote, author }, true);
+    if (categoryKey === activeCategoryKey) {
+      // 1. User clicked the ALREADY ACTIVE tab: Generate a NEW quote
+      const [quote, author] = pickRandomContent(categoryKey);
+      applyState({ categoryKey, label, quote, author }, true);
+      
+    } else {
+      // 2. User clicked a DIFFERENT tab: Switch to it
+      if (currentStates[categoryKey]) {
+        // If we already visited this tab, restore where we left off (don't push to history)
+        applyState(currentStates[categoryKey], false);
+      } else {
+        // If it's the very first time visiting this tab, generate an initial quote
+        const [quote, author] = pickRandomContent(categoryKey);
+        applyState({ categoryKey, label, quote, author }, false);
+      }
+    }
   }
 
   function renderCards() {
@@ -263,9 +313,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   if (backButton) {
     backButton.addEventListener("click", () => {
-      if (historyStack.length === 0) return;
-      const previousState = historyStack.pop();
-      applyState(previousState, false);
+      if (!activeCategoryKey || historyStacks[activeCategoryKey].length === 0) return;
+      
+      const previousState = historyStacks[activeCategoryKey].pop();
+      // Passing 'false' prevents the current card from being pushed forward into history
+      applyState(previousState, false); 
     });
   }
 
@@ -273,11 +325,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     favoriteLink.addEventListener("click", (e) => {
       e.preventDefault();
       if (!currentState) return;
+
+      // Trigger Animation
+      favoriteLink.classList.remove("animate");
+      void favoriteLink.offsetWidth; // Force reflow to restart animation
+      favoriteLink.classList.add("animate");
+
       if (isCurrentFavorite()) {
         removeFavorite(currentState.id);
       } else {
         addFavorite(currentState);
       }
+
       updateFavoriteButton();
       if (favoritesPage && !favoritesPage.classList.contains("hidden")) {
         renderFavorites();
